@@ -1,7 +1,5 @@
 <?php
 
-echo "HEllo World";
-
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +10,7 @@ echo "HEllo World";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
     <style>
         .carousel-caption {
@@ -116,7 +114,7 @@ echo "HEllo World";
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img1.jpg" alt="First slide" id="img1">
+                    <img class="d-block w-100" src="images/img1.jpg" alt="First slide" id="img1">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Web Development</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, pariatur consequuntur.
@@ -125,7 +123,7 @@ echo "HEllo World";
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img2.jpg" alt="Second slide" id="img2">
+                    <img class="d-block w-100" src="images/img2.jpg" alt="Second slide" id="img2">
 
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Mobile Development</h1>
@@ -137,7 +135,7 @@ echo "HEllo World";
 
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img3.jpg" alt="Third slide" id="img3">
+                    <img class="d-block w-100" src="images/img3.jpg" alt="Third slide" id="img3">
                     <div class="carousel-caption d-none d-md-block">
                         <h1>Data Science</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, pariatur consequuntur.
@@ -164,29 +162,29 @@ echo "HEllo World";
     <div class="card-group p-5">
 
         <div class="card p-3" style="width: 18rem;">
-            <img class="card-img-top" src="img1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/img1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Web Development</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+              <a href="enroll.php" class="btn btn-primary">Enroll Now</a>
             </div>
           </div>
     
           <div class="card p-3" style="width: 18rem;">
-            <img class="card-img-top" src="img2.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/img2.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Mobile Development</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+              <a href="enroll.php" class="btn btn-primary">Enroll Now</a>
             </div>
           </div>
     
           <div class="card p-3" style="width: 18rem;">
-            <img class="card-img-top" src="img3.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/img3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Data Science</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+              <a href="enroll.php" class="btn btn-primary">Enroll Now</a>
             </div>
           </div>
 
@@ -196,7 +194,7 @@ echo "HEllo World";
 
     <div class="login">
 
-        <img class="login-img" src="login.png" alt="">
+        <img class="login-img" src="images/login.png" alt="">
 
         <div class="form-group">
             <div class="input-group">
@@ -280,9 +278,9 @@ echo "HEllo World";
 
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
